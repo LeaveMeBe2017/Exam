@@ -28,7 +28,9 @@
         <Button 
             Height="30" Width="140"
             HorizontalAlignment="Right"
-            VerticalAlignment="Bottom" Click="Button_Click"
+            VerticalAlignment="Bottom" 
+             Background="#FF76E383"
+            Click="Button_Click"
             >На главную</Button>
     </Grid>
 </Window>

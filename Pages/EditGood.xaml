@@ -61,6 +61,12 @@
                 Background="#FF76E383"
                 Click="Button_Click">Сохранить</Button>
 
+            <Button
+                Margin="0,5"
+                 Background="#FF76E383" Click="Button_Click_2" 
+             
+                >Назад</Button>
+
 
         </StackPanel>
         <Button 

@@ -92,5 +92,11 @@ namespace Exam.Pages
             new MainWindow().Show();
             Close();
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            new GoodsAdmin().Show();
+            Close();
+        }
     }
 }
