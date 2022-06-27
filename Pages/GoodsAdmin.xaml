@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Exam.Pages"
         mc:Ignorable="d"
-        Title="Окно Администратора" Height="950" Width="1200" WindowStartupLocation="CenterScreen" Icon="/Exam;component/Images/icon.ico" FontSize="20" FontFamily="Comic Sans MS">
+        Title="Окно Администратора" Height="950" Width="1200" MinHeight="800" MinWidth="1050" WindowStartupLocation="CenterScreen" Icon="/Exam;component/Images/icon.ico" FontSize="20" FontFamily="Comic Sans MS">
     <Grid>
         <Label 
             x:Name="fioElem"
