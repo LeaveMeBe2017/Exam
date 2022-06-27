@@ -1,0 +1,75 @@
+﻿<Window x:Class="Exam.Pages.EditGood"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exam.Pages"
+        mc:Ignorable="d"
+        Title="Редактирование товара" Height="850" Width="350" FontSize="20" FontFamily="Comic Sans MS" Icon="/Exam;component/Images/icon.ico">
+    <Grid>
+        <StackPanel>
+            <Image Source="../Images/logo.png" Height="100"/>
+
+            <Label 
+                HorizontalAlignment="Center"
+                >Артикул</Label>
+            <TextBox x:Name="articleElem"/>
+
+            <Label 
+                HorizontalAlignment="Center"
+                >Наименование</Label>
+            <TextBox x:Name="nameElem"/>
+
+            <Label 
+                HorizontalAlignment="Center"
+                >Описание</Label>
+            <TextBox x:Name="descrElem"/>
+
+            <Label 
+                HorizontalAlignment="Center"
+                >Категория</Label>
+            <ComboBox x:Name="categoryElem">
+                <ComboBoxItem>Защита лица, глаз, головы</ComboBoxItem>
+                <ComboBoxItem>Стеновые и фасадные материалы</ComboBoxItem>
+                <ComboBoxItem>Общестроительные материалы</ComboBoxItem>
+                <ComboBoxItem>Ручной инструмент</ComboBoxItem>
+                <ComboBoxItem>Сухие строительные смеси и гидроизоляция</ComboBoxItem>
+            </ComboBox>
+
+            <Label 
+                HorizontalAlignment="Center"
+                >Производитель</Label>
+            <TextBox x:Name="manufactElem"/>
+
+            <Label 
+                HorizontalAlignment="Center"
+                >Цена</Label>
+            <TextBox x:Name="priceElem"/>
+
+            <Label 
+                HorizontalAlignment="Center"
+                >Скидка</Label>
+            <TextBox x:Name="discountElem"/>
+
+            <Label 
+                HorizontalAlignment="Center"
+                >Остаток на складе</Label>
+            <TextBox x:Name="quantityElem"/>
+
+            <Button 
+                Margin="0,5"
+                Background="#FF76E383"
+                Click="Button_Click">Сохранить</Button>
+
+
+        </StackPanel>
+        <Button 
+            Width="120" Height="30"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Bottom" 
+            Background="#FF76E383"
+            Click="Button_Click_1"
+            >На главную</Button>
+
+    </Grid>
+</Window>
