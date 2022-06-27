@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Exam.Pages"
         mc:Ignorable="d"
-        Title="Просмотр товаров" Height="950" Width="1200" FontFamily="Comic Sans MS" FontSize="20" Icon="/Exam;component/Images/icon.ico">
+        Title="Просмотр товаров" Height="950" Width="1200" WindowStartupLocation="CenterScreen" FontFamily="Comic Sans MS" FontSize="20" Icon="/Exam;component/Images/icon.ico">
     <Grid>
         <StackPanel>
             <Image Source="../Images/logo.png" Height="100"/>
